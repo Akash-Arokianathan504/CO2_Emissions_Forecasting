@@ -40,8 +40,8 @@ co2-emissions-forecasting/
 ### 🚀 Quickstart
 ### Clone the repository:
 
-git clone https://github.com/Akash-Arokianathan504/CO2_Emissions_Forecasting.git
-cd co2-emissions-forecasting
+    -> git clone https://github.com/Akash-Arokianathan504/CO2_Emissions_Forecasting.git
+    -> cd co2-emissions-forecasting
 
 ### Install dependencies:
 
