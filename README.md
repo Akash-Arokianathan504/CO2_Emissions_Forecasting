@@ -53,6 +53,7 @@ pip install -r requirements.txt
 
 
 📊 Workflow (Inside run.sh)
+
     Step 1: Build cleaned dataset from data/raw/
 
     Step 2: Train models (pop-trend for population, co2-gdp for emissions vs GDP)
