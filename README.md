@@ -40,8 +40,8 @@ co2-emissions-forecasting/
 ### 🚀 Quickstart
 ### Clone the repository:
 
-    -> git clone https://github.com/Akash-Arokianathan504/CO2_Emissions_Forecasting.git
-    -> cd co2-emissions-forecasting
+    git clone https://github.com/Akash-Arokianathan504/CO2_Emissions_Forecasting.git
+    cd co2-emissions-forecasting
 
 ### Install dependencies:
 
@@ -49,21 +49,21 @@ pip install -r requirements.txt
 
 ### Run the entire pipeline (end-to-end):
 
-./scripts/run.sh --pop-country Latvia --co2-country China --horizon 10
+    ./scripts/run.sh --pop-country Latvia --co2-country China --horizon 10
 
 
 📊 Workflow (Inside run.sh)
-Step 1: Build cleaned dataset from data/raw/
+    Step 1: Build cleaned dataset from data/raw/
 
-Step 2: Train models (pop-trend for population, co2-gdp for emissions vs GDP)
+    Step 2: Train models (pop-trend for population, co2-gdp for emissions vs GDP)
 
-Step 3: Forecast CO₂ emissions for a given country and horizon
+    Step 3: Forecast CO₂ emissions for a given country and horizon
 
 You can override defaults with flags:
 
-./scripts/run.sh --raw data/raw --processed data/processed \
-                 --pop-country India --co2-country UnitedStates \
-                 --horizon 15
+    ./scripts/run.sh --raw data/raw --processed data/processed \
+                    --pop-country India --co2-country UnitedStates \
+                    --horizon 15
 
 
                            
