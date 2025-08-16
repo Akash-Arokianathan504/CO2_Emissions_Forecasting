@@ -1,7 +1,10 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 CO₂ Emissions: Bayesian Regression & Forecasting
 This project analyzes and forecasts CO₂ emissions using Bayesian regression models with a Student’s t-distribution for robustness against outliers.
 The workflow covers data ingestion, cleaning, exploratory data analysis (EDA), modeling, and forecasting, focusing on predictors strongly correlated with emissions such as GDP and deforestation.
 
+```
 📂 Repository Structure
 graphql
 Copy
@@ -32,6 +35,7 @@ co2-emissions-forecasting/
 │  ├─ forecast.py      # CLI: Forecast & plot results
 ├─ models/             # Saved model traces
 └─ tests/              # Unit tests (if implemented)
+```
 
 🚀 Quickstart
 
