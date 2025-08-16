@@ -37,8 +37,8 @@ co2-emissions-forecasting/
 └─ tests/              # Unit tests (if implemented)
 ```
 
-#### 🚀 Quickstart
-##### Clone the repository:
+### 🚀 Quickstart
+#### Clone the repository:
 
 git clone https://github.com/Akash-Arokianathan504/CO2_Emissions_Forecasting.git
 cd co2-emissions-forecasting
@@ -47,7 +47,7 @@ cd co2-emissions-forecasting
 
 pip install -r requirements.txt
 
-##### Run the entire pipeline (end-to-end):
+#### Run the entire pipeline (end-to-end):
 
 ./scripts/run.sh --pop-country Latvia --co2-country China --horizon 10
 
@@ -66,38 +66,38 @@ You can override defaults with flags:
 
 
                            
-#### 📈 Example Outputs
+### 📈 Example Outputs
 
 EDA: Correlation heatmaps, distribution plots (log & raw)
 Model Fits: Posterior parameter estimates from Bayesian regression
 Forecasts: 10-year predictions with credible intervals
 Insights: Top emitters, deforestation intensity trends
 
-📓 Interactive Walkthrough  
+### 📓 Interactive Walkthrough  
 For a step-by-step end-to-end demonstration of this project, see the [Full Pipeline Notebook](notebook/co2_forecasting_end_to_end.ipynb).  
 
 
-#### 🛠 CLI Commands Overview
+### 🛠 CLI Commands Overview
 
 Command								Description
 python scripts/make_dataset.py	    Build cleaned dataset from raw CSVs
 python scripts/train.py	            Train Bayesian model (pop-trend or co2-gdp)
 python scripts/forecast.py	        Forecast and plot results from a trained model
 
-#### 📜 Methods
+### 📜 Methods
 
 EDA: Data completeness checks, null interpolation, correlation analysis, log transformations.
 Modeling: Bayesian regression with PyMC using Student’s t-distribution for heavy-tailed data; GDP and year as predictors.
 Evaluation: R², MSE, and visual inspection of prediction intervals.
 
-#### 📚 Dependencies
+### 📚 Dependencies
 
 Python 3.10+
 pandas, numpy, matplotlib, seaborn
 PyMC, ArviZ, scipy, scikit-learn
 
-#### 📜 License
+### 📜 License
 MIT License — see LICENSE for details.
 
-#### 🙌 Acknowledgements
+### 🙌 Acknowledgements
 Data sourced from Our World in Data and other open sources.
