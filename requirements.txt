@@ -1,0 +1,8 @@
+pandas>=2.2
+numpy>=2.0
+matplotlib>=3.9
+seaborn>=0.13
+pymc>=5.0
+arviz>=0.17
+scipy>=1.12
+scikit-learn>=1.5
