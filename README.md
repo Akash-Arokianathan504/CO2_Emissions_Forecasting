@@ -38,18 +38,19 @@ co2-emissions-forecasting/
 ```
 
 ### 🚀 Quickstart
-#### Clone the repository:
+### Clone the repository:
 
 git clone https://github.com/Akash-Arokianathan504/CO2_Emissions_Forecasting.git
 cd co2-emissions-forecasting
 
-##### Install dependencies:
+### Install dependencies:
 
 pip install -r requirements.txt
 
-#### Run the entire pipeline (end-to-end):
+### Run the entire pipeline (end-to-end):
 
 ./scripts/run.sh --pop-country Latvia --co2-country China --horizon 10
+
 
 📊 Workflow (Inside run.sh)
 Step 1: Build cleaned dataset from data/raw/
