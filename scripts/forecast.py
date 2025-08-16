@@ -86,7 +86,7 @@ if __name__ == "__main__":
     p.add_argument("--trace", required=True)
     p.add_argument("--country", default="China")
     p.add_argument("--horizon", type=int, default=10)
-    p.add_argument("--save_dir", default="reports/figures")
+    p.add_argument("--save_dir", default="reports/results")
     p.add_argument("--no_show", action="store_true", help="Save figure without popping a window")
     args = p.parse_args()
     main(args)
